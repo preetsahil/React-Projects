@@ -1,0 +1,19 @@
+.news-app{
+    width: 80%;
+    /* margin-bottom: 20px; */
+    margin-block: 40px;
+    margin-inline:auto;
+}
+.query-input{
+    width: 83%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    margin-right: 30px;
+    
+}
+.btn-submit{
+    margin-bottom: 20px;
+    padding:20px 60px;
+}
