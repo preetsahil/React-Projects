@@ -1,0 +1,19 @@
+.accordion-title{
+ display: flex;
+ padding-block: 10px;
+ width: 100%;
+ font-size: 1.2rem;
+ background-color: #ccc;
+ opacity: 0.8;
+ padding-inline: 20px;
+}
+.icon{
+    margin-left: auto;
+}
+.accordion-item{
+    margin-bottom:20px;
+}
+.accordion-content{
+    padding-inline:20px;
+    margin-top: 5px;
+}
