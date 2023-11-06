@@ -3,9 +3,8 @@ import Video from "./Video";
 import TopComponent from "./TopComponent";
 function Videos() {
   const [videoList, setVideoList] = useState([]);
-  // const apiKey = `AIzaSyDoTnG5MYrIU2J_Yday7yyOc2naC2ajwDM`;
 
-  const apiUrl = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=30&regionCode=US&key=AIzaSyDoTnG5MYrIU2J_Yday7yyOc2naC2ajwDM`;
+  const apiUrl = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=30&regionCode=US&key=[YOUR_API_KEY]`;
 
   async function fetchData() {
     try {
